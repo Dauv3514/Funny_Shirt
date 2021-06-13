@@ -12,6 +12,280 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-body {
-    background-color: #ccc;
+.header {
+
+background-color: #f2f2f2;
+
 }
+
+.container {
+
+display : flex;
+justify-content : center ;
+list-style-type: none ;
+align-items: center ;
+background-color: #f2f2f2;
+
+}
+
+.container ul {
+
+display : flex;
+justify-content : center ;
+align-items: center ;
+list-style-type: none ;
+text-decoration: none ;
+margin-left : 100px ;
+
+}
+
+.container li {
+
+margin-left : 50px ;
+
+}
+
+.container a {
+
+text-decoration: none ;
+font-size : 25px;
+color:black ;
+}
+
+.custom-logo {
+
+height : 80px ;
+width : 80px ;
+
+}
+
+.centre {
+
+margin-top : 14px ;
+
+}
+
+.centre h1 {
+
+font-size : 20px;
+
+}
+
+
+
+#apropos {
+
+margin-top : 30px ;
+
+}
+
+.apropos {
+
+text-align:center ;
+
+}
+
+
+
+
+
+
+#actualites {
+
+margin-top: 40px ;
+
+}
+
+.centrage {
+
+display : flex ;
+justify-content : center;
+flex-direction: row ;
+
+}
+.container2 {
+
+width : 18%;
+
+}
+
+.image img {
+
+height : 150px ;
+width : 260px ; 
+        
+        
+}
+
+
+
+#magasins {
+
+margin-top : 40px;
+
+}
+
+.centrer {
+
+display : flex ;
+justify-content : center ;
+flex-direction: row ;
+
+}
+.container3 {
+
+width : 18%;
+
+}
+
+
+.images img {
+
+height : 150px ;
+width : 260px ; 
+            
+}
+
+.titre2 {
+
+text-align : center ;
+font-size : 25px ;
+margin-bottom : 30px ;
+
+}
+
+.titre {
+
+font-size : 15px ;
+font-weight: bold ;
+}
+
+
+.categories ul {
+
+list-style-type : none ;
+
+}
+.categories a {
+
+text-decoration : none ;
+color: white;
+
+}
+
+.lien a {
+
+text-decoration : none ;
+color: white ;
+
+}
+
+
+
+
+
+.container4 {
+
+display : flex ;
+justify-content: center ;
+background-color: #3b434a;
+color : white ;
+height : 150px ;
+
+}
+
+.lo {
+
+display : flex ;
+margin-right : 70px ;
+
+}
+
+.navigation {
+
+margin-right : 70px ;
+
+}
+
+.telephone a {
+
+text-decoration: underline ;
+color: white;
+
+}
+
+.mail a {
+
+text-decoration: underline ;
+color: white;
+
+}
+
+
+.adress {
+
+height : 24px ;
+margin-top: 15px ;
+    
+}
+    
+.telephone {
+    
+height : 24px ;
+        
+}
+    
+.mail {
+    
+height : 24px ;
+        
+}
+
+h5 {
+
+margin-top : 20px ;
+text-align: center ;
+
+}
+
+.logo {
+
+margin-top: 40px ;
+
+}
+
+.vert {
+
+margin-top : 28px ;
+
+}
+
+.nav2 {
+
+margin-top: 15px ;
+
+}
+.nav2 ul {
+
+list-style-type : none ;
+    
+}
+
+.nav2 a {
+    
+text-decoration : none ;
+color: white;
+    
+}
+
+
+.actu {
+
+text-align: center ;
+
+}
+
+
+
+
+
