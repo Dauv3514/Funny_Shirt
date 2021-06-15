@@ -1,47 +1,42 @@
-<?php 
+<?php
 // Template Name: Contact
-get_header(); 
+get_header();
 ?>
 
-<div class="contact">
-                <h5>Pour nous contacter</h5>
+<div class="milieu">
 
-                    <div class="adresse">
-                    <p> Adresse : <?= carbon_get_theme_option('adresse'); ?> </p>                 
-                    </div>
+    <div class="contact">
 
-                    <div class="telephone2">
-					<p> Téléphone : <a href="tel:<?= carbon_get_theme_option('phone'); ?>">
-						<?= carbon_get_theme_option('phone'); ?>
-					</a> </p>
-                    </div>
+        <h5>Pour nous contacter</h5>
 
-                    <div class="mail2">
-					<p> Email : <a href="mailto:<?= carbon_get_theme_option('email'); ?>">
-						<?= carbon_get_theme_option('email'); ?>
-					</a> </p>
-                    </div>
-            </div>
+        <div class="adresse">
+            <p> Adresse : <?= carbon_get_theme_option('adresse'); ?> </p>
+        </div>
 
-            if( current_user_can( 'publish_posts' ) ) { // Contrôle des rôles utilisateur
-		acf_form_head(); // Initialiser le formulaire ACF
-    }
+        <div class="telephone2">
+            <p> Téléphone : <a href="tel:<?= carbon_get_theme_option('phone'); ?>">
+                    <?= carbon_get_theme_option('phone'); ?>
+                </a> </p>
+        </div>
 
-	get_header();
-    if( have_posts() ): while( have_posts() ): the_post();
-?>
+        <div class="mail2">
+            <p> Email : <a href="mailto:<?= carbon_get_theme_option('email'); ?>">
+                    <?= carbon_get_theme_option('email'); ?>
+                </a> </p>
+        </div>
 
-      <h1 class="site__heading"><?php the_title(); ?></h1>
-      <div class="wp-content"><?php the_content(); ?></div>
+    </div>
 
-      <p>Texte : <?php the_field( 'text' ); ?></p>
-      <p>Éditeur : <?php the_field( 'editor' ); ?></p>
-      <p>Couleur : <?php the_field( 'color' ); ?></p>
+    <div class="formulaire">
 
-  <?php 
-    if( current_user_can( 'publish_posts' ) ) { // Contrôle des rôles utilisateur
-      	acf_form(); // Le formulaire ACF
-    }
-  ?>
+    <!-- Boucle qui affiche les élements d'une page -Gutenberg- -->
+
+        <?php while (have_posts()) : the_post(); ?>
+            <?php the_content(); ?>
+        <?php endwhile; ?>
+
+    </div>
+
+</div>
 
 <?php get_footer();

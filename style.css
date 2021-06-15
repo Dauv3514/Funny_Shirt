@@ -12,6 +12,11 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+
+/*
+Style du header
+*/
+
 .header {
 
 background-color: #f2f2f2;
@@ -72,6 +77,40 @@ font-size : 20px;
 }
 
 
+/*
+Style du slider
+*/
+
+.slider {
+
+min-height: 700px;
+
+}
+
+.slick-prev {
+
+background-color: black ;
+
+}
+
+.centrageslide {
+
+text-align : center ;
+margin-top : 160px ;
+
+}
+
+.gras {
+
+font-size: 20px ;
+font-weight: bold ;
+
+}
+
+
+/*
+Style de la section A propos
+*/
 
 #apropos {
 
@@ -85,10 +124,27 @@ text-align:center ;
 
 }
 
+.cont {
 
+text-align : center ;
 
+}
 
+.titre {
 
+margin-bottom: 10px ;
+
+}
+
+.detail {
+
+margin-bottom: 10px ;
+    
+}
+
+/*
+Style de la section actualites
+*/
 
 #actualites {
 
@@ -117,7 +173,9 @@ width : 260px ;
         
 }
 
-
+/*
+Style de la section magasins
+*/
 
 #magasins {
 
@@ -181,8 +239,9 @@ color: white ;
 }
 
 
-
-
+/*
+Style du footer
+*/
 
 .container4 {
 
@@ -190,7 +249,7 @@ display : flex ;
 justify-content: center ;
 background-color: #3b434a;
 color : white ;
-height : 150px ;
+height : 200px ;
 
 }
 
@@ -198,12 +257,14 @@ height : 150px ;
 
 display : flex ;
 margin-right : 70px ;
+margin-top : 30px ;
 
 }
 
 .navigation {
 
-margin-right : 70px ;
+margin-right: 70px ;
+margin-top: 12px ;
 
 }
 
@@ -221,12 +282,10 @@ color: white;
 
 }
 
-
 .adress {
 
 height : 24px ;
-margin-top: 15px ;
-    
+
 }
     
 .telephone {
@@ -284,6 +343,76 @@ color: white;
 text-align: center ;
 
 }
+
+
+/*
+Style de la section ventes (produits)
+*/
+
+#ventes {
+
+margin-top : 40px;
+height : 500px ;
+    
+}
+
+.image2 img {
+
+height : 260px ;
+width : 260px ;
+}
+
+.contenu {
+
+display: flex ;
+flex-direction: row;
+justify-content: center ;
+
+}
+
+.contenu2 {
+
+height : 260px ;
+width : 318px;
+
+}
+
+.titreproduits h2 {
+
+font-size: 20px ;
+
+}
+
+.prix h3 {
+
+font-size: 15px ;
+
+}
+
+
+/*
+Style de la page contact
+*/
+
+.milieu {
+
+text-align: center ;
+
+}
+
+.contact h5 {
+
+margin-top: 30px ;
+margin-bottom: 30px ;
+
+}
+
+.formulaire {
+
+margin-top: 40px ;
+
+}
+
 
 
 
